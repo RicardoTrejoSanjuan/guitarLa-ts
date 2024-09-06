@@ -2,7 +2,7 @@
 
 This project is a shopping cart application built with **React** and **TypeScript**, using **Vite** as the build tool. The application is deployed on **Netlify** and can be accessed via the following URL:
 
-**[Shopping Cart - Live Demo](https://resonant-axolotl-d20821.netlify.app/)**
+**[Shopping Cart - Live Demo](https://heartfelt-druid-c67a72.netlify.app/)**
 
 ## Table of Contents
 - [Description](#description)
@@ -36,7 +36,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/RicardoTrejoSanjuan/guitarLa.git
+    git clone https://github.com/RicardoTrejoSanjuan/guitarLa-ts.git
     ```
 
 2. Navigate into the project directory:

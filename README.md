@@ -1,50 +1,80 @@
-# React + TypeScript + Vite
+# GuitarLa - TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a shopping cart application built with **React** and **TypeScript**, using **Vite** as the build tool. The application is deployed on **Netlify** and can be accessed via the following URL:
 
-Currently, two official plugins are available:
+**[Shopping Cart - Live Demo](https://heartfelt-druid-c67a72.netlify.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Description
+This project is a shopping cart application that allows users to browse products, add them to the cart, and manage the quantity of each item. The application is built with **TypeScript** to provide type safety and improve code quality. The interface is intuitive and focuses on user experience to make the shopping process seamless.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
+- View available products.
+- Add products to the cart.
+- Modify the quantity of items in the cart.
+- Remove products from the cart.
+- Real-time price summary updates.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
+- **React**: v18.3.1
+- **TypeScript**: Adds static type checking to JavaScript.
+- **Vite**: Build tool for fast development.
+- **Node**: v18
+- **Netlify**: Free hosting service.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Installation
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+To run the project locally, follow these steps:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/RicardoTrejoSanjuan/guitarLa-ts.git
+    ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+2. Navigate into the project directory:
+    ```bash
+    cd guitarLa
+    ```
+
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+5. Open your browser and go to the application.
+
+## Usage
+
+1. Browse through the available products.
+2. Click on "Add to Cart" to select the desired items.
+3. Manage quantities from the cart page.
+4. Review the total price and selected items before proceeding with checkout (simulated option in this version).
+
+## Contributing
+
+Contributions are welcome. If you wish to improve this project:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push the branch (`git push origin feature/new-feature`).
+5. Open a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---

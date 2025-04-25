@@ -2,9 +2,14 @@
 
 This project is a shopping cart application built with **React** and **TypeScript**, using **Vite** as the build tool. The application is deployed on **Netlify** and can be accessed via the following URL:
 
+## Demo
+
 **[Shopping Cart - Live Demo](https://heartfelt-druid-c67a72.netlify.app/)**
 
+![Shopping Cart Screenshot](./public/img/Screenshot.png)
+
 ## Table of Contents
+
 - [Description](#description)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
@@ -14,9 +19,11 @@ This project is a shopping cart application built with **React** and **TypeScrip
 - [License](#license)
 
 ## Description
+
 This project is a shopping cart application that allows users to browse products, add them to the cart, and manage the quantity of each item. The application is built with **TypeScript** to provide type safety and improve code quality. The interface is intuitive and focuses on user experience to make the shopping process seamless.
 
 ## Features
+
 - View available products.
 - Add products to the cart.
 - Modify the quantity of items in the cart.
@@ -24,6 +31,7 @@ This project is a shopping cart application that allows users to browse products
 - Real-time price summary updates.
 
 ## Technologies Used
+
 - **React**: v18.3.1
 - **TypeScript**: Adds static type checking to JavaScript.
 - **Vite**: Build tool for fast development.
@@ -35,24 +43,28 @@ This project is a shopping cart application that allows users to browse products
 To run the project locally, follow these steps:
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/RicardoTrejoSanjuan/guitarLa-ts.git
-    ```
+
+   ```bash
+   git clone https://github.com/RicardoTrejoSanjuan/guitarLa-ts.git
+   ```
 
 2. Navigate into the project directory:
-    ```bash
-    cd guitarLa
-    ```
+
+   ```bash
+   cd guitarLa
+   ```
 
 3. Install dependencies:
-    ```bash
-    npm install
-    ```
+
+   ```bash
+   npm install
+   ```
 
 4. Start the development server:
-    ```bash
-    npm run dev
-    ```
+
+   ```bash
+   npm run dev
+   ```
 
 5. Open your browser and go to the application.
 
